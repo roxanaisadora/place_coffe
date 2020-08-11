@@ -2,6 +2,10 @@
 
 This project covers generating the search profile layout for various varieties of coffee drinks.
 
+logeo
+![image](https://user-images.githubusercontent.com/58452664/89848530-ee951800-db4b-11ea-9bd9-3d54843d9aba.png)
+
+vista
 ![coffe_1](https://user-images.githubusercontent.com/58452664/89473291-22d19880-d748-11ea-93eb-2bf3ed64b420.JPG)
 
 carousel
