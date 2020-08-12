@@ -12,7 +12,7 @@ app
 
 vista
 
-![coffe_1](https://user-images.githubusercontent.com/58452664/89473291-22d19880-d748-11ea-93eb-2bf3ed64b420.JPG)
+![image](https://user-images.githubusercontent.com/58452664/90055973-cc161280-dca3-11ea-8892-dbdfbd6ed10b.png)
 
 carousel
 
@@ -20,7 +20,8 @@ carousel
 
 dropdown menu
 
-![menus desplegable](https://user-images.githubusercontent.com/58452664/89473725-37faf700-d749-11ea-9975-63852d358c56.jpg)
+![image](https://user-images.githubusercontent.com/58452664/90056237-27e09b80-dca4-11ea-8ba2-c93402012b23.png)
+![image](https://user-images.githubusercontent.com/58452664/90056187-15666200-dca4-11ea-840d-88a34aac86f1.png)
 
 
 
