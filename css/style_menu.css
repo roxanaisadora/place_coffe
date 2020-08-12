@@ -31,12 +31,13 @@ body{
 }
 .header__menu li {
     margin: 10px 0px;
-    text-shadow: -1px 1px 0 #0a0e27;
 }
 .header__menu li a {
     color: white;
     text-decoration: none;
     font-size: 15px;
+    -webkit-text-stroke: 1px #545353;
+    font-family: 'Open Sans', sans-serif;
 }
 .header__menu li a:hover {
     text-decoration: underline;
@@ -54,17 +55,25 @@ body{
 }
 .header__menu--profile p{
     margin: 0px;
-    color: blanchedalmond;
+    color: white;
     font-size: 20px;
     margin-top: 8px;
+    -webkit-text-stroke: 0.5px white;
 }
 .main {
     height: 300;
 }
 .main__title {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     text-align:center;
+}
+.categories__title {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 30px;
+    width: 100px;
 }
 .input {
     background-color: rgba(255,255,255,0.1);
@@ -78,6 +87,8 @@ body{
     width: 70%;
     outline: none;
     margin: 0px 0px 0px 200px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-text-stroke: 0.8px black;
 }
 ::placeholder {
     color: white;
@@ -85,18 +96,18 @@ body{
 .carousel {
     width: 100%;
     overflow: scroll;
-    padding: 30px;
+    padding: 30px 30px 10px 30px;
     position: relative;
 }
 .carousel__conteiner {
     white-space: nowrap;
-    margin: 70px 70px 70px 10px;
+    margin: 30px 100px 30px 10px;
     padding-bottom: 10px;
 }
 .carousel-item {
     background-color: #59405c ;
-    width: 200px;
-    height: 250px;
+    width: 180px;
+    height: 230px;
     border-radius: 20px;
     overflow: hidden;
     margin-right: 10px;
@@ -125,7 +136,7 @@ body{
     background-color: linear-gradient(to top, rgba(0,0,0,0.9) 0%,  rgba(0,0,0,0) 100%);
     font-size: 10px;
     opacity: 0;
-    transition: 450 ms opacity;
+    transition: 450ms opacity;
     padding: 10px;
     position: absolute;
     top: 0;
@@ -136,11 +147,48 @@ body{
     justify-content: flex-end;
     flex-direction: column;
 }
-.carousel-item__details img{
-    height: 15px;
+.carousel-item__details img {
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 60px;
+    background: #050800;
 }
 .carousel-item__details:hover {
     opacity: 1;
     color: white;
-
+}
+.carousel-item__details--title {
+    -webkit-text-stroke: 0.8px black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.carousel-item__details--subtitle {
+    -webkit-text-stroke: 0.8px black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        margin:0;
+        font-family: 'Lora', serif;
+        background: url("https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80") no-repeat fixed center;
+        background-size: 300%;
+    }
+    .input {
+        background-color: rgba(255,255,255,0.1);
+        border: 2px solid white;
+        border-radius: 60px;
+        color:white;
+        font-size: 16px;
+        font-family: 'Lora', serif;
+        height: 50px;
+        padding: 0px 20px;
+        width: 70%;
+        outline: none;
+        margin: 0px 0px 0px 50px;
+        font-family: 'Open Sans', sans-serif;
+        -webkit-text-stroke: 0.8px black;
+    }
 }
