@@ -102,12 +102,12 @@ body{
 }
 .carousel__conteiner {
     white-space: nowrap;
-    margin: 50px 40px 5px 32px;
+    margin: 50px 40px 20px 32px;
     padding-bottom: 10px;
 }
 .carousel-item {
     background-color: #59405c ;
-    width: 170px;
+    width: 160px;
     height: 210px;
     border-radius: 20px;
     overflow: hidden;
@@ -129,7 +129,7 @@ body{
     opacity: 1;
 }
 .carousel-item__img {
-    width: 170px;
+    width: 160px;
     height: 210px;
     object-fit: cover;
 }
