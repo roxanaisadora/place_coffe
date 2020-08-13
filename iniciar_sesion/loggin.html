@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="./style_loggin.css">
 </head>
 <body>
+    <header class="header"> 
+        <img tabindex="0" class="header__img" src="https://image.freepik.com/vector-gratis/insignia-cafeteria-estilo-vintage_1176-95.jpg" alt="logo">
+    </header>
     <section class="login">
         <section class="login_container">
-            <h2>Iniciar Sección</h2>
+            <h2 tabindex="0">Iniciar Sección</h2>
             <form class ="login__conteiner--form">
-                <input class="input" type="text" placeholder="Correo Electronico">
-                <input class="input" type="password" placeholder="contraseña">
+                <input aria-label="correo" class="input" type="text" placeholder="Correo Electronico">
+                <input aria-label="contraseña" class="input" type="password" placeholder="contraseña">
                 <button class="button">Iniciar sección</button>
                 <div class="login__conteiner--remember-me">
                     <label>
