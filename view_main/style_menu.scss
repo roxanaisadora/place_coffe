@@ -75,13 +75,16 @@ body{
     padding-left: 30px;
     width: 100px;
 }
-.input {
-    background-color: rgba(255,255,255,0.1);
-    border: 2px solid white;
+@mixin flex{
     border-radius: 60px;
+    border: 2px solid white;
     color:white;
-    font-size: 16px;
     font-family: 'Lora', serif;
+}
+.input {
+    @include flex;
+    background-color: rgba(255,255,255,0.1);
+    font-size: 16px;
     height: 50px;
     padding: 0px 20px;
     width: 70%;
@@ -149,9 +152,8 @@ body{
     flex-direction: column;
 }
 .carousel-item__details img {
+    @include flex;
     height: 25px;
-    border: 2px solid white;
-    border-radius: 60px;
     background: #050800;
 }
 .carousel-item__details:hover {
@@ -179,11 +181,8 @@ body{
     }
     .input {
         background-color: rgba(255,255,255,0.1);
-        border: 2px solid white;
-        border-radius: 60px;
-        color:white;
+        @include flex;
         font-size: 16px;
-        font-family: 'Lora', serif;
         height: 50px;
         padding: 0px 20px;
         width: 70%;
